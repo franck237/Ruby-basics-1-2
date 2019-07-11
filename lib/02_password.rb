@@ -26,7 +26,7 @@ def welcome_screen
     puts "Bienvenue cher utilisateur au sein de votre espace secret"
 
     puts "le contenu – supposé – des textos et messages WhatsApp du téléphone 
-    d'un membre de ton groupe est le suivant"
+    de F. membre de ton groupe est le suivant : Je suis un cyborg"
 
     #faudra voir comment introduire une liste de nom de membre et 
     #permettre au programme d'afficher le contenu d'un membre particulier
