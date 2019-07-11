@@ -5,9 +5,7 @@ def signup
 end
 
 
-def login
-   
-	password = signup
+def login(password)
 
    confirmed = " "
    while password != confirmed
@@ -19,14 +17,29 @@ def login
    end
 	
 puts "Bienvenue sur la home page"
- 
-
     
 end
-login
-
-
 
 def welcome_screen
-    
+
+    puts "Bienvenue cher utilisateur au sein de votre espace secret"
+
+    puts "le contenu – supposé – des textos et messages WhatsApp du téléphone 
+    d'un membre de ton groupe est le suivant"
+
+    #faudra voir comment introduire une liste de nom de membre et 
+    #permettre au programme d'afficher le contenu d'un membre particulier
+
 end
+
+def perform
+
+	password = signup
+	login(password)
+	welcome_screen
+
+
+	
+end
+
+perform
