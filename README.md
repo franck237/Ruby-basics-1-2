@@ -36,3 +36,14 @@ Exercice 2.1.3
 
 Grâce à l'ajout d'une méthode perform notre programme peut tourner sans souci
 
+Exercice 2.2.1 
+
+Petit rappel de la fameuse pyramide de mario! un programme qui doit tenir compte de l'espace et du nombre d'étage. Nous avons donc défini de nombreuses variables pour ce faire
+
+Exercice 2.2.2
+
+Ayant désormais découvert le plaisir des boucles nous avons voulu être astucieux et proposer à l'aide d'une boucle .times (qui prend toujours en compte les espaces) une pyramide digne de notre ami Ramsou
+
+
+
+ 

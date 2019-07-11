@@ -31,6 +31,7 @@ print "> "
 
 n_floor = gets.chomp.to_i
 
+puts "Voici votre pyramide"
 espace =" "
 i = 1
 #n = n_floor
