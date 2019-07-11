@@ -7,7 +7,8 @@ end
 
 def login(password)
 
-   confirmed = " "
+	puts "veuillez confirmer votre mot de passe s'il vous plaît?"
+   confirmed = gets.chomp
    while password != confirmed
    puts " Votre mot de passe est erroné, veuillez recommencer"    
     
