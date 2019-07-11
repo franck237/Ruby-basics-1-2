@@ -22,5 +22,28 @@ number_floors.times do
 end
 	
 end
-half_pyramid
+
+def full_pyramid
+puts "Saut, bienvenue dans ma super pyramide ! 
+Combien d'étages veux-tu?"
+
+print "> " 
+
+n_floor = gets.chomp.to_i
+
+espace =" "
+i = 1
+#n = n_floor
+n_floor.times do |i|
+
+	print espace * (n_floor - i)
+	puts '#' * (2 * i + 1)
+
+i +=1
+
+end
+
+end
+
+full_pyramid
 
