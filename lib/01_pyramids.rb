@@ -46,7 +46,6 @@ end
 
 end
 
-
 def wtf_pyramid
 puts "Saut, bienvenue dans ma super pyramide ! 
 Combien d'étages veux-tu?"
@@ -58,9 +57,8 @@ n_floor = gets.chomp.to_i
 puts "Voici votre pyramide"
 espace =" "
 i = 1
-#n = n_floor
 
-	#while  i <= n_floor
+	while  i <= (n_floor/2 + 1)
 			
 
 			n_floor.times do |i|
@@ -72,7 +70,9 @@ i = 1
 
 			end
 
-	
+	while i >= (n_floor%2)
+		
+	end
 		n_floor.times do |i|
 
 				print espace * (n_floor - i)
@@ -82,8 +82,6 @@ i = 1
 
 
 		end
-
-	
 
 end
 
