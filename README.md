@@ -45,5 +45,16 @@ Exercice 2.2.2
 Ayant désormais découvert le plaisir des boucles nous avons voulu être astucieux et proposer à l'aide d'une boucle .times (qui prend toujours en compte les espaces) une pyramide digne de notre ami Ramsou
 
 
+Exercice 2.2.3
 
+
+
+
+
+
+
+
+Exercice 2.3.2
+
+cxcxc
  
