@@ -4,7 +4,7 @@ end
 
 def ask_first_name
 	puts "Bonjour, quelle est votre prénom ?"
-	print "> "
+
 	first_name = gets.chomp
 
 	return first_name
